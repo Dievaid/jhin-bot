@@ -1,3 +1,6 @@
-set BOT_TOKEN=NzA2ODI4NzUxMjc0NTA4MzU4.GE9OWc.4l-BmEjET4zXEmdlmBquOCE2XeRQbe4Vd4pFF8
-npm install
-npm run dev
+while true
+do
+        npm run start
+        echo "[$(date)] App crashed... restarting..." >> run.log
+        sleep 1
+done
